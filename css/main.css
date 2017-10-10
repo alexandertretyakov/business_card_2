@@ -1,5 +1,290 @@
+* {
+    outline: 1px dotted red;
+}
+
 body {
     color: #f3f3f3;
     font-family: Tahoma, Arial, sans-serif;
     background: #535050;
 }
+
+.page {
+    width: 784px;
+    margin: 65px auto 31px;
+}
+
+/*---------------------------------------------------- Header */
+
+.header {
+    height: 164px;
+}
+
+.header a {
+    width: 196px;
+    height: 164px;
+    float: left;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-size: 28px;
+    color: #f3f3f3;
+    padding-top: 75px;
+}
+
+.header a:nth-child(1) {
+    background-image: url("../image/menu_1.gif");
+    padding-left: 13px;
+}
+
+.header a:nth-child(2) {
+    background-image: url("../image/menu_2.gif");
+    padding-left: 17px;
+}
+
+.header a:nth-child(3) {
+    background-image: url("../image/menu_3.gif");
+    padding-left: 31px;
+
+}
+
+.header a:nth-child(4) {
+    background-image: url("../image/menu_4.gif");
+    padding-left: 51px;
+}
+
+/*------------------------------------------------------ Content */
+
+.content {
+    height: 753px;
+}
+
+.content a,
+.footer a {
+    color: #efcfa5;
+}
+
+.heading1,
+.heading2,
+.heading3,
+.heading4,
+.heading5 {
+    font-weight: normal;
+    font-size: 20px;
+    color: #efcfa5;
+}
+
+.heading1 {
+    float: left;
+    margin-left: 4px;
+    margin-top: -6px;
+}
+
+.about,
+.testimonials,
+.feature,
+.recent,
+.our,
+.rec,
+.sms {
+    border-top: 6px solid #7e7e7e;
+}
+
+.about,
+.feature,
+.recent,
+.our,
+.rec,
+.sms {
+    background-color: #5f5c5c;
+}
+
+
+.about {
+    width: 468px;
+    height: 146px;
+    float: left;
+    margin-top: 23px;
+    margin-left: -52px;
+}
+
+.about p {
+    line-height: 135%;
+    margin-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+}
+
+.heading2 {
+    color: #a1c6dd;
+    float: right;
+    margin-right: 173px;
+    margin-top: -6px;
+}
+
+.our,
+.sms {
+    width: 485px;
+    height: 363px;
+    float: left;
+    margin-top: 23px;
+    margin-left: -108px;
+}
+
+.sms {
+    clear: left;
+    margin-left: 3px;
+    margin-top: 4px;
+
+}
+
+.testimonials {
+    width: 280px;
+    height: 202px;
+    font-size: 12px;
+    float: right;
+    margin-top: 5px;
+    margin-right: 3px;
+}
+
+.testimonials p:nth-child(1),
+.testimonials p:nth-child(3) {
+    font-size: 13px;
+    margin-left: 15px;
+    line-height: 165%;
+    padding-right: 60px;
+}
+
+h4,
+.creator {
+    font-size: 14px;
+    margin-top: 5px;
+    color: #a1c6dd;
+}
+
+h4 {
+     margin-left: 161px;
+ }
+
+.creator {
+     margin-left: 21px;
+ }
+
+.testimonials p:nth-child(3) {
+    margin-top: -5px;
+}
+
+.heading3 {
+    font-size: 20px;
+    display: inline-block;
+    margin-top: 13px;
+    margin-left: 4px;
+}
+
+.feature {
+    width: 422px;
+    height: 185px;
+    margin-top: -13px;
+    margin-left: 4px;
+    float: left;
+}
+
+.feature p:nth-child(1) {
+    margin-left: 13px;
+    margin-top: 10px;
+}
+
+.feature p:nth-child(3) {
+    line-height: 135%;
+    margin-top: -8px;
+    margin-left: 242px;
+}
+
+.feature img,
+.recent img,
+.our img,
+.rec img {
+    border: 5px solid #ede1d2;
+    margin-left: 13px;
+    margin-top: -8px;
+    float: left;
+}
+
+.our p:nth-child(3),
+.our p:nth-child(6) {
+    margin-top: -8px;
+    margin-left: 235px;
+    padding-right: 50px;
+    line-height: 135%;
+
+}
+
+.heading4 {
+    float: right;
+    margin-top: 2px;
+    margin-right: 197px;
+}
+
+.recent {
+    width: 332px;
+    height: 378px;
+    float: right;
+    margin-top: 5px;
+    margin-right: 3px;
+ }
+
+.recent p,
+.our p,
+.rec p:nth-child(1) {
+    margin-top: 10px;
+    margin-left: 13px;
+}
+
+.recent p:nth-child(1) { /*----странно приходиться перебивать 237 ?----*/
+    margin-top: 10px;
+}
+
+.recent p,
+.rec p:nth-child(3) {
+    margin-left: 13px;
+    margin-top: 154px;
+    clear: left;
+}
+
+.our p:nth-child(4) {
+    clear: left;
+    margin-left: 13px;
+    margin-top: 104px;
+}
+
+.rec {
+    width: 280px;
+    height: 384px;
+    float: right;
+    margin-top: 5px;
+    margin-right: 2px;
+}
+
+.heading5 {
+    float: right;
+    margin-top: 2px;
+    margin-right: 145px;
+}
+
+/*--------------------------------------------- Footer */
+
+.footer {
+    width: auto;
+    height: 47px;
+    margin: auto;
+    background-color: #585555;
+    border-top: 1px solid #4d4a4a;
+}
+
+.footer p {
+    margin-left: 253px;
+    margin-top: 6px;
+    font-size: 14px;
+    word-spacing: 11px;
+}
+
+
+
