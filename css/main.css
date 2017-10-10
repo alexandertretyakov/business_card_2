@@ -233,7 +233,8 @@ h4 {
 
 .recent p,
 .our p,
-.rec p:nth-child(1) {
+.rec p:nth-child(1),
+.recent p:nth-child(1) {
     margin-top: 10px;
     margin-left: 13px;
 }
