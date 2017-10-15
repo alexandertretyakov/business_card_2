@@ -84,10 +84,6 @@ a {
     float: left;
 }
 
-.module--about .module-content {
-    padding: 10px;
-}
-
 .module--testimonials {             /*----testimonials----*/
     width: 280px;
     float: right;
@@ -109,7 +105,7 @@ h4 {
     margin: 0 23px 13px 0;
 }
 
-.module--testimonials .module-content p {
+.module--testimonials p {
     font-size: 13px;
     line-height: 165%;
     padding-right: 50px;
