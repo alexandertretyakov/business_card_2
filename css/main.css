@@ -1,6 +1,6 @@
 * {
-    margin: 0 0 0 0;
-    padding: 0 0 0 0;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -12,24 +12,21 @@ body {
 
 .page {
     width: 784px;
-    margin: 65px auto 0;
+    margin: 65px auto 60px;
 }
 
-.page a {
+a {
     color: #efcfa5;
 }
 
 /*------------------------------------------------------ Header */
-
-.header {
-    height: 164px;
-}
 
 .header a {
     width: 196px;
     height: 164px;
     float: left;
     padding-top: 83px;
+    margin-bottom: 8px;
 }
 
 .header a:nth-child(1) {
@@ -55,70 +52,55 @@ body {
 
 /*------------------------------------------------------ Content */
 
-.content {
-    height: 774px;
-    padding: 42px 0 0 0;
-}
-
-.module {
+.module-content {
+    padding: 9px 10px 10px 14px;
     background-color: #5f5c5c;
-    border-top: 6px solid #7e7e7e;
+    line-height: 135%;
 }
 
 .module img {
     border: 5px solid #ede1d2;
     float: left;
-    margin: 8px 25px 8px 0;
+    margin: 6px 23px 8px 0;
 }
 
 .module h3 {
     font-weight: normal;
     font-size: 20px;
     color: #efcfa5;
+    border-bottom: 6px solid #7e7e7e;
+    padding: 5px 0;
 }
 
 .module--about {                    /*----about----*/
     width: 468px;
-    height: 153px;
-    margin: 0 0 41px 3px;
+    margin: 0 0 8px 3px;
     float: left;
-    padding-left: 10px;
 }
 
-.module--about h3 {
-    margin: -35px 0 22px -10px;
-}
-
-.module--about p {
-    line-height: 135%;
-    padding-right: 10px;
+.module--about
+.module-content {
+    padding: 10px;
 }
 
 .module--testimonials {             /*----testimonials----*/
     width: 280px;
-    height: 199px;
     float: right;
-    background-color: #535050;
-    margin: 0 3px 41px 0;
+    background-color: transparent;
+    margin: 0 3px -5px 0;
 }
 
 .module--testimonials h3 {
     color: #a1c6dd;
-    margin: -35px 0 24px 0;
+    margin: 0 0 13px 0;
 }
 
 h4 {
     font-size: 14px;
     color: #a1c6dd;
     margin-bottom: 13px;
-}
-
-.module--testimonials h4:nth-child(3) {
-    margin-left: 160px;
-}
-
-.module--testimonials h4:nth-child(5) {
-    margin-left: 181px;
+    text-align: right;
+    margin-right: 30px;
 }
 
 .module--testimonials p {
@@ -130,48 +112,37 @@ h4 {
 
 .module--featured-project {         /*----featured-project----*/
     width: 422px;
-    height: 191px;
     float: left;
-    padding-left: 13px;
     margin-left: 3px;
 }
 
-.module--featured-project h3 {
-    margin: -35px 0 22px -13px;
-}
-
-.module--featured-project p:nth-child(4) {
-    margin-top: 8px;
+.module--featured-project p:nth-child(5) {
+    margin-top: 7px;
     line-height: 135%;
+    float: left;
 }
 
-.module--recent-projects {           /*----recent-projects----*/
+.module--recent-projects {          /*----recent-projects----*/
     width: 332px;
-    height: 385px;
     float: right;
     margin-right: 3px;
-    padding-left: 13px;
 }
 
-.module--recent-projects h3 {
-    margin: -35px 0 22px -13px;
-}
-
-.module--recent-projects p:nth-child(4) {
+.module-content p:nth-child(3) {
     clear: left;
 }
+
 /*---------------------------------------------------------- Footer */
 
 .footer {
     width: auto;
-    height: 47px;
-    margin: auto;
     background-color: #585555;
     border-top: 1px solid #4d4a4a;
     font-size: 14px;
     word-spacing: 11px;
     text-align: center;
     padding-top: 4px;
+    clear: both;
 }
 
 
