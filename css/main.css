@@ -12,7 +12,7 @@ body {
 
 .page {
     width: 784px;
-    margin: 65px auto 60px;
+    margin: 65px auto;
 }
 
 a {
@@ -58,6 +58,12 @@ a {
     line-height: 135%;
 }
 
+.module-content::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
 .module img {
     border: 5px solid #ede1d2;
     float: left;
@@ -74,50 +80,48 @@ a {
 
 .module--about {                    /*----about----*/
     width: 468px;
-    margin: 0 0 8px 3px;
+    margin-bottom: 8px;
     float: left;
 }
 
-.module--about
-.module-content {
+.module--about .module-content {
     padding: 10px;
 }
 
 .module--testimonials {             /*----testimonials----*/
     width: 280px;
     float: right;
+    margin-bottom: -15px;
+}
+
+.module--testimonials .module-content {
     background-color: transparent;
-    margin: 0 3px -5px 0;
 }
 
 .module--testimonials h3 {
     color: #a1c6dd;
-    margin: 0 0 13px 0;
 }
 
 h4 {
     font-size: 14px;
     color: #a1c6dd;
-    margin-bottom: 13px;
     text-align: right;
-    margin-right: 30px;
+    margin: 0 23px 13px 0;
 }
 
-.module--testimonials p {
+.module--testimonials .module-content p {
     font-size: 13px;
     line-height: 165%;
-    padding-right: 60px;
-    margin: 0 0 13px 15px;
+    padding-right: 50px;
+    margin-bottom: 12px;
 }
 
 .module--featured-project {         /*----featured-project----*/
     width: 422px;
     float: left;
-    margin-left: 3px;
 }
 
-.module--featured-project p:nth-child(5) {
-    margin-top: 7px;
+.module--featured-project .module-content p:nth-child(2) {
     line-height: 135%;
     float: left;
 }
@@ -125,10 +129,9 @@ h4 {
 .module--recent-projects {          /*----recent-projects----*/
     width: 332px;
     float: right;
-    margin-right: 3px;
 }
 
-.module-content p:nth-child(3) {
+.module--recent-projects p {
     clear: left;
 }
 
