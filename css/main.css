@@ -19,6 +19,10 @@ a {
     color: #efcfa5;
 }
 
+.beside {
+    clear: left;
+}
+
 /*------------------------------------------------------ Header */
 
 .header a {
@@ -66,8 +70,8 @@ a {
 
 .module img {
     border: 5px solid #ede1d2;
-    float: left;
     margin: 6px 23px 8px 0;
+    float: left;
 }
 
 .module h3 {
@@ -78,7 +82,7 @@ a {
     padding: 5px 0;
 }
 
-.module--about {                    /*----about----*/
+.module--about {                       /*----about----*/
     width: 468px;
     margin-bottom: 8px;
     float: left;
@@ -98,7 +102,7 @@ a {
     color: #a1c6dd;
 }
 
-h4 {
+.module--testimonials h4 {
     font-size: 14px;
     color: #a1c6dd;
     text-align: right;
@@ -131,7 +135,27 @@ h4 {
     clear: left;
 }
 
-/*---------------------------------------------------------- Footer */
+/*------- portfolio. html--------*/
+
+.module--our-projects {              /*----our-project----*/
+    width: 485px;
+    float: left;
+}
+
+.page--portfolio .module--recent-projects,
+.page--contacts .module--recent-projects {
+    width: 280px;
+}
+
+/*------- contacts. html--------*/
+
+.module--contact-us {
+    width: 485px;
+    height: 408px;
+    float: left;
+}
+
+    /*---------------------------------------------------------- Footer */
 
 .footer {
     width: auto;
