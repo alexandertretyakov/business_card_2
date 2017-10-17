@@ -161,7 +161,7 @@ button {
 }
 
 textarea {
-    width: 465px;
+    width: 100%;
 }
 
 button {
@@ -182,14 +182,16 @@ button {
     height: 136px;
     background-image: url("../image/pricing_desk.gif");
     margin-bottom: 16px;
-    padding: 25px 30px 10px 25px;
-    color: #508b56;
+    padding: 20px 30px 0 25px;
+    color: #70a746;
 }
 
 .product-one p:nth-child(1),
 .product-two p:nth-child(1) {
     float: right;
-    margin-right: 55px;
+    margin-right: 50px;
+    line-height: 155%;
+    margin-bottom: 10px;
 }
 
 .product-one p:nth-child(2),
@@ -198,14 +200,25 @@ button {
     margin: 8px 0 5px 0;
 }
 
-li {
+ul {
     list-style-image: url(../image/dot.png);
-    margin-left: 20px;
+    margin-left: 40px;
+    float: left;
+    padding-right: 30px;
 }
 
 span {
-    font-size: 30px;
+    font-size: 32px;
 }
+
+.module--pricing a {
+    width: 164px;
+    height: 43px;
+    float: right;
+    background-image: url("../image/purchase.png");
+}
+
+/*-------- faq.html --------*/
 
 
 
