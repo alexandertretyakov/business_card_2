@@ -147,7 +147,6 @@ a {
 
 .module--contact-us {                /*----contact us----*/
     width: 485px;
-    height: 408px;
     float: left;
 }
 
@@ -169,6 +168,47 @@ button {
     background-color: #7e7e7e;
     border-color: white;
 }
+
+/*-------- pricing/html --------*/
+
+.module--pricing {                     /*----pricing----*/
+    width: 485px;
+    float: left;
+}
+
+.product-one,
+.product-two {
+    width: 465px;
+    height: 136px;
+    background-image: url("../image/pricing_desk.gif");
+    margin-bottom: 16px;
+    padding: 25px 30px 10px 25px;
+    color: #508b56;
+}
+
+.product-one p:nth-child(1),
+.product-two p:nth-child(1) {
+    float: right;
+    margin-right: 55px;
+}
+
+.product-one p:nth-child(2),
+.product-two p:nth-child(2) {
+    font-size: 24px;
+    margin: 8px 0 5px 0;
+}
+
+li {
+    list-style-image: url(../image/dot.png);
+    margin-left: 20px;
+}
+
+span {
+    font-size: 30px;
+}
+
+
+
 
     /*---------------------------------------------------------- Footer */
 
