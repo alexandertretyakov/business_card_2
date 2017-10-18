@@ -228,9 +228,10 @@ button {
     color: #a7a7a7;
 }
 
-dd {
+.module--faq dd {
     margin-bottom: 8px;
 }
+
 
     /*---------------------------------------------------------- Footer */
 
