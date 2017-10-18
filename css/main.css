@@ -185,7 +185,6 @@ button {
     color: #70a746;
 }
 
-.product p:nth-child(1),
 .product p:nth-child(1) {
     float: right;
     margin-right: 50px;
@@ -193,20 +192,19 @@ button {
     margin-bottom: 10px;
 }
 
-.product p:nth-child(2),
 .product p:nth-child(2) {
     font-size: 24px;
     margin: 8px 0 5px 0;
 }
 
-ul {
+.product ul {
     list-style-image: url(../image/dot.png);
     margin-left: 40px;
     float: left;
     padding-right: 30px;
 }
 
-span {
+.product span {
     font-size: 32px;
 }
 
@@ -223,14 +221,11 @@ span {
     width: 475px;
     float: left;
     font-size: 14px;
+    line-height: 160%;
 }
 
 .module--faq a {
     color: #a7a7a7;
-}
-
-dl {
-    line-height: 160%;
 }
 
 dd {
