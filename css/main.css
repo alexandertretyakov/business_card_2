@@ -126,7 +126,7 @@ a {
     float: left;
 }
 
-.module--recent-projects {          /*----recent-projects----*/
+.page--index .module--recent-projects {          /*----recent-projects----*/
     width: 332px;
     float: right;
 }
@@ -138,9 +138,9 @@ a {
     float: left;
 }
 
-.page--portfolio .module--recent-projects,
-.page--contacts .module--recent-projects {
+.module--recent-projects{
     width: 280px;
+    float: right;
 }
 
 /*------- contacts. html--------*/
@@ -220,8 +220,23 @@ span {
 
 /*-------- faq.html --------*/
 
+.module--faq {                           /*----faq----*/
+    width: 475px;
+    float: left;
+    font-size: 14px;
+}
 
+.module--faq a {
+    color: #a7a7a7;
+}
 
+dl {
+    line-height: 160%;
+}
+
+dd {
+    margin-bottom: 8px;
+}
 
     /*---------------------------------------------------------- Footer */
 
