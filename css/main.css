@@ -1,3 +1,5 @@
+/* ------------------------------------------------------ Basic styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -23,7 +25,30 @@ a {
     clear: left;
 }
 
-/*------------------------------------------------------ Header */
+.field {
+    margin-bottom: 9px;
+}
+
+input,
+textarea,
+button {
+    font: 15px Arial, sans-serif;
+    padding: 4px;
+    border: 2px solid #7e7e7e;
+    width: 200px;
+}
+
+textarea {
+    width: 100%;
+    resize: none;
+}
+
+button {
+    background-color: #7e7e7e;
+    border-color: white;
+}
+
+/* ------------------------------------------------------ Header */
 
 .header a {
     width: 196px;
@@ -54,7 +79,9 @@ a {
     padding-left: 52px;
 }
 
-/*------------------------------------------------------ Content */
+/* ------------------------------------------------------ Content */
+
+/* ------------------------- Global Module Styles */
 
 .module-content {
     padding: 9px 10px 10px 14px;
@@ -82,13 +109,17 @@ a {
     padding: 5px 0;
 }
 
-.module--about {                       /*----about----*/
+/* ------------------------- Module: About */
+
+.module--about {
     width: 468px;
     margin-bottom: 8px;
     float: left;
 }
 
-.module--testimonials {             /*----testimonials----*/
+/* ------------------------- Module: Testimonials */
+
+.module--testimonials {
     width: 280px;
     float: right;
     margin-bottom: -15px;
@@ -116,7 +147,9 @@ a {
     margin-bottom: 12px;
 }
 
-.module--featured-project {         /*----featured-project----*/
+/* ------------------------- Module: Featured Project */
+
+.module--featured-project {
     width: 422px;
     float: left;
 }
@@ -126,52 +159,34 @@ a {
     float: left;
 }
 
-.page--index .module--recent-projects {          /*----recent-projects----*/
-    width: 332px;
-}
-
-/*------- portfolio. html--------*/
-
-.module--our-projects {              /*----our-project----*/
-    width: 485px;
-    float: left;
-}
+/* ------------------------- Module: Recent Projects */
 
 .module--recent-projects{
     width: 280px;
     float: right;
 }
 
-/*------- contacts. html--------*/
+.page--index .module--recent-projects {
+    width: 332px;
+}
 
-.module--contact-us {                /*----contact us----*/
+/* ------------------------- Module: Our Projects */
+
+.module--our-projects {
     width: 485px;
     float: left;
 }
 
-input,
-textarea,
-button {
-    font: 15px Arial, sans-serif;
-    padding: 4px;
-    border: 2px solid #7e7e7e;
-    margin-bottom: 9px;
-    width: 200px;
+/* ------------------------- Module: Contact Us */
+
+.module--contact-us {
+    width: 485px;
+    float: left;
 }
 
-textarea {
-    width: 100%;
-    resize: none;
-}
+/* ------------------------- Module: Pricing */
 
-button {
-    background-color: #7e7e7e;
-    border-color: white;
-}
-
-/*-------- pricing/html --------*/
-
-.module--pricing {                     /*----pricing----*/
+.module--pricing {
     width: 485px;
     float: left;
 }
@@ -215,9 +230,9 @@ button {
     background-image: url("../image/purchase.png");
 }
 
-/*-------- faq.html --------*/
+/* ------------------------- Module: FAQ */
 
-.module--faq {                           /*----faq----*/
+.module--faq {
     width: 475px;
     float: left;
     font-size: 14px;
@@ -232,8 +247,7 @@ button {
     margin-bottom: 8px;
 }
 
-
-    /*---------------------------------------------------------- Footer */
+/* ------------------------------------------------------ Footer */
 
 .footer {
     width: auto;
@@ -245,7 +259,3 @@ button {
     padding-top: 4px;
     clear: both;
 }
-
-
-
-
