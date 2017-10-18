@@ -128,7 +128,6 @@ a {
 
 .page--index .module--recent-projects {          /*----recent-projects----*/
     width: 332px;
-    float: right;
 }
 
 /*------- portfolio. html--------*/
@@ -153,7 +152,7 @@ a {
 input,
 textarea,
 button {
-    font-size: 15px;
+    font: 15px Arial, sans-serif;
     padding: 4px;
     border: 2px solid #7e7e7e;
     margin-bottom: 9px;
@@ -162,6 +161,7 @@ button {
 
 textarea {
     width: 100%;
+    resize: none;
 }
 
 button {
@@ -176,8 +176,7 @@ button {
     float: left;
 }
 
-.product-one,
-.product-two {
+.product{
     width: 465px;
     height: 136px;
     background-image: url("../image/pricing_desk.gif");
@@ -186,16 +185,16 @@ button {
     color: #70a746;
 }
 
-.product-one p:nth-child(1),
-.product-two p:nth-child(1) {
+.product p:nth-child(1),
+.product p:nth-child(1) {
     float: right;
     margin-right: 50px;
     line-height: 155%;
     margin-bottom: 10px;
 }
 
-.product-one p:nth-child(2),
-.product-two p:nth-child(2) {
+.product p:nth-child(2),
+.product p:nth-child(2) {
     font-size: 24px;
     margin: 8px 0 5px 0;
 }
