@@ -5,16 +5,26 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+html,
 body {
     color: #f3f3f3;
     font-family: Tahoma, Arial, sans-serif;
     background: #535050;
+    height: 100%;
+}
+
+.header,
+.content {
+    width: 784px;
+    margin: auto;
 }
 
 .page {
-    width: 784px;
-    margin: 65px auto;
+
+    margin: 65px auto 0;
+    position: relative;
+    min-height: 100%;
+    padding-bottom: 50px;
 }
 
 a {
@@ -250,12 +260,14 @@ button {
 /* ------------------------------------------------------ Footer */
 
 .footer {
-    width: auto;
+    width: 100%;
+    height: 46px;
     background-color: #585555;
     border-top: 1px solid #4d4a4a;
     font-size: 14px;
     word-spacing: 11px;
     text-align: center;
     padding-top: 4px;
-    clear: both;
+    position: absolute;
+    bottom: 0;
 }
