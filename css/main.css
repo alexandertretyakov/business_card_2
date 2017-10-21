@@ -5,12 +5,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 html,
+body {
+    height: 100%;
+}
+
 body {
     color: #f3f3f3;
     font-family: Tahoma, Arial, sans-serif;
     background: #535050;
-    height: 100%;
 }
 
 .header,
@@ -19,12 +23,17 @@ body {
     margin: auto;
 }
 
-.page {
+.header::after,
+.content::after {
+    content: '';
+    display: block;
+    clear: both;
+}
 
-    margin: 65px auto 0;
+.page {
     position: relative;
     min-height: 100%;
-    padding-bottom: 50px;
+    padding: 65px 0 50px 0;
 }
 
 a {
@@ -265,9 +274,12 @@ button {
     background-color: #585555;
     border-top: 1px solid #4d4a4a;
     font-size: 14px;
-    word-spacing: 11px;
     text-align: center;
     padding-top: 4px;
     position: absolute;
     bottom: 0;
+}
+
+.footer a {
+    margin: 0 5px;
 }
