@@ -67,6 +67,10 @@ button {
     border-color: white;
 }
 
+.active {
+    display: none;
+}
+
 /* ------------------------------------------------------ Header */
 
 .header a {
