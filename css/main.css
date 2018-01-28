@@ -67,10 +67,6 @@ button {
     border-color: white;
 }
 
-.active {
-    display: none;
-}
-
 /* ------------------------------------------------------ Header */
 
 .header a {
@@ -187,6 +183,7 @@ button {
 .module--recent-projects{
     width: 280px;
     float: right;
+    clear: right;
 }
 
 .page--index .module--recent-projects {
@@ -262,12 +259,23 @@ button {
     line-height: 160%;
 }
 
-.module--faq a {
+.module--faq dt {
     color: #a7a7a7;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.module--faq dt:hover {
+    text-decoration: none;
 }
 
 .module--faq dd {
     margin-bottom: 8px;
+    display: none;
+}
+
+.module--faq dt.active + dd {
+    display: block;
 }
 
 /* ------------------------------------------------------ Footer */
